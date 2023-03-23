@@ -1,0 +1,142 @@
+﻿
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(165, 163, 64);
+  color: white;
+}
+
+/* 
+Estilos del encabezado */
+
+header {
+  background-color: rgb(7, 2, 70);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
+Estilos del menú */
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* 
+Estilos del menú desplegable */
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  padding: 0;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  float: none;
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav ul ul li a {
+  padding: 10px 20px;
+}
+
+nav ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* 
+Estilos del pie de página */
+
+footer {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color:blue;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .aves {
+        margin: 20px;
+        border: 1px solid;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .aves img {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 30px;
+      }
+      .aves h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+      }
+      .aves p {
+        font-size: 16px;
+        margin: 0;
+        padding: 10px;
+        flex-grow: 1;
+        text-align: center;
+        overflow: auto;
+      }
+      .aves-fot {
+        width: 290px;
+      }
+      .aves-fot2 {
+        width: 410px;
+      }
+      .reptil-fot {
+        width: 350px;
+      }
+    </style>

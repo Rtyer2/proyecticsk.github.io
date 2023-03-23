@@ -1,0 +1,61 @@
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color:aquamarine;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .app {
+        margin: 20px;
+        border: 1px solid;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .app img {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 30px;
+      }
+      .app h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+      }
+      .app p {
+        font-size: 16px;
+        margin: 0;
+        padding: 10px;
+        flex-grow: 1;
+        text-align: center;
+        overflow: auto;
+      }
+      .aves-fot {
+        width: 290px;
+      }
+      .aves-fot2 {
+        width: 410px;
+      }
+      .reptil-fot {
+        width: 350px;
+      }
+    </style>
